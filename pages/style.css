@@ -8,9 +8,9 @@ header{
     height: 120vh;
 }
 
-body>nav{
+button{
     position:absolute;
-    right: 50px; 
+    right: 25px; 
     top: 65px;
 }
 
