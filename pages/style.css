@@ -1,0 +1,31 @@
+body{
+    background-color: bisque;
+    margin: 15px;
+}
+
+header{
+    background-image: url(..//assets/img/design1_image2.jpg);
+    height: 120vh;
+}
+
+body>nav>bu{
+    position:absolute;
+    right: 50px; 
+    top: 65px;
+}
+
+header>img{
+    position: absolute;
+    width: 16%;
+    top: 138vh;
+    right: 30cm;
+    }
+
+section>img{
+    position: absolute;
+    top: 165vh;
+}
+
+main> article{
+    transform: translate(300px);
+}
