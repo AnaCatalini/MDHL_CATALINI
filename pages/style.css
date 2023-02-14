@@ -8,11 +8,26 @@ header{
     height: 120vh;
 }
 
-body>nav>bu{
-    position:absolute;
-    right: 50px; 
-    top: 65px;
-}
+.home-btn {
+    background-color: #199319;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+  }
+
+.about-btn {
+    background-color: #199319;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+  }
+
+.contact-btn {
+    background-color: #199319;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+  }
 
 header>img{
     position: absolute;
