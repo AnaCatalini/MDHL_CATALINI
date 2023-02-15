@@ -1,46 +1,116 @@
-body{
-    background-color: bisque;
-    margin: 15px;
+body {
+  background-color: bisque;
+  margin: 15px;
 }
 
-header{
-    background-image: url(..//assets/img/design1_image2.jpg);
-    height: 120vh;
+header {
+  background-image: url(..//assets/img/design1_image2.jpg);
+  height: 130vh;
+
+}
+
+h1 {
+  text-align: center;
 }
 
 .home-btn {
-    background-color: #199319;
-    color: white;
-    padding: 15px 25px;
-    text-decoration: none;
-  }
-
-.about-btn {
-    background-color: #199319;
-    color: white;
-    padding: 15px 25px;
-    text-decoration: none;
-  }
-
-.contact-btn {
-    background-color: #199319;
-    color: white;
-    padding: 15px 25px;
-    text-decoration: none;
-  }
-
-header>img{
-    position: absolute;
-    width: 16%;
-    top: 138vh;
-    right: 30cm;
-    }
-
-section>img{
-    position: absolute;
-    top: 165vh;
+  background-color: #1f0b92;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
 }
 
-main> article{
-    transform: translate(300px);
+.home-btn:active {
+  background-color: #0b9221;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+}
+
+.about-btn {
+  background-color: #1f0b92;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+}
+
+.about-btn:active {
+  background-color: #0b9221;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+}
+
+.contact-btn {
+  background-color: #1f0b92;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+}
+
+.contact-btn:active {
+  background-color: #0b9221;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+}
+
+.rules-btn {
+  background-color: #1f0b92;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+}
+
+.rules-btn:active {
+  background-color: #0b9221;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+}
+
+.schedule-btn {
+  background-color: #1f0b92;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+}
+
+.schedule-btn:active {
+  background-color: #0b9221;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+}
+
+figure>img {
+  position: sticky;
+  width: 16%;
+  top: 138vh;
+  right: 30cm;
+}
+
+aside>img {
+  position: absolute;
+  top: 175vh;
+}
+
+main>article {
+  transform: translate(300px);
+}
+
+main>section>h2 {
+  text-align: center;
+  border-style: solid;
+  border-color: black;
+  background-color: rgb(238, 177, 97);
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+td, th{
+  padding: 1rem;
 }
