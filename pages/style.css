@@ -111,6 +111,7 @@ nav {
   justify-content: flex-end;
 }
 
-td, th{
+td,
+th {
   padding: 1rem;
 }
